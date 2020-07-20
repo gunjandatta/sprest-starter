@@ -1,0 +1,36 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "A basic solution to accelerate creating SharePoint solutions.",
+  "main": "src/index.ts",
+  "scripts": {
+    "all": "npm run build && npm run prod",
+    "build": "webpack --mode=development",
+    "prod": "webpack --mode=production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gunjandatta/sprest-starter.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gunjandatta/sprest-starter/issues"
+  },
+  "homepage": "https://github.com/gunjandatta/sprest-starter#readme",
+  "dependencies": {
+    "gd-sprest": "*"
+  },
+  "devDependencies": {
+    "@babel/core": "*",
+    "@babel/preset-env": "*",
+    "babel-loader": "*",
+    "css-loader": "*",
+    "html-loader": "*",
+    "style-loader": "*",
+    "ts-loader": "*",
+    "webpack": "*",
+    "webpack-cli": "*"
+  }
+}
